@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Dumways task | Pascal triangle</title>
+    <style>
+      body {
+        background-color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center"><b>Pascal triangle</b></h1>
+
+      <p>
+        <b>Input: 6</b> <br /><br />
+        <b
+          >Ouput: <br /><br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 <br />
+          &nbsp; &nbsp; &nbsp; &nbsp; 1 1 <br />
+          &nbsp; &nbsp; &nbsp;&nbsp; 1 2 1 <br />
+          &nbsp; &nbsp; &nbsp; 1 3 3 1 <br />
+          &nbsp; &nbsp; 1 4 6 4 1 <br />
+          &nbsp;1 5 10 10 5 1 <br />
+        </b>
+      </p>
+
+      <br /><br />
+    </div>
+
+    <div>
+      <label><b>input your number </b></label><br />
+      <input type="number" id="jumlah" />
+      <button
+        onclick="printPascaltriangle(document.getElementById('jumlah').value)"
+      >
+        tampilkan
+      </button>
+    </div>
+
+    <h3>Output</h3>
+    <p id="hasil"></p>
+    <button
+      onclick="window.open('https://github.com/Ekalavyaaa/dumbways-task', '_blank');"
+    >
+      My github
+    </button>
+    <hr />
+    <div style="text-align: center">
+      <h2>Pascal triangle</h2>
+      <img src="" alt="Gambar Flowchart" width="500" />
+    </div>
+
+    <script src="js/pascal-triangle.js"></script>
+  </body>
+</html>
