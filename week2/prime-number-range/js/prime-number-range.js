@@ -1,4 +1,7 @@
 function printPrime() {
+// berishkan output
+    document.getElementById("hasil").innerHTML = "";
+
   //ambil nilai yang ada di kotak number 1 dan masukkan ke variabel x
   var bilangan1 = document.getElementById("number1").value;
 

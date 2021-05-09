@@ -14,7 +14,7 @@
       <p>
         <b>Input: 6</b> <br /><br />
         <b
-          >Ouput: <br /><br>
+          >Ouput: <br /><br />
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 <br />
           &nbsp; &nbsp; &nbsp; &nbsp; 1 1 <br />
           &nbsp; &nbsp; &nbsp;&nbsp; 1 2 1 <br />
@@ -31,19 +31,25 @@
       <label><b>input your number </b></label><br />
       <input type="number" id="jumlah" />
       <button
-        onclick="printPascaltriangle(document.getElementById('jumlah').value)"
+        onclick="tampilkanSegitigaPascal(document.getElementById('jumlah').value)"
       >
         tampilkan
       </button>
     </div>
 
     <h3>Output</h3>
-    <p id="hasil"></p>
-    <button
-      onclick="window.open('https://github.com/Ekalavyaaa/dumbways-task', '_blank');"
-    >
-      My github
-    </button>
+    <!-- <div style="width: 300px; text-align: left;"> -->
+    <div style="text-align: center;  border: 1px solid #000000; padding: 10px;" id="keluaran"></div>
+    <!-- </div> -->
+    <br />
+    <div>
+      <button
+        onclick="window.open('https://github.com/Ekalavyaaa/dumbways-task', '_blank');"
+      >
+        My github
+      </button>
+    </div>
+
     <hr />
     <div style="text-align: center">
       <h2>Pascal triangle</h2>

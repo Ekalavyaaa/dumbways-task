@@ -1,4 +1,6 @@
 function printVowels(param) {
+  // bersihkan output
+  document.getElementById("hasil").innerHTML = "";
 
   //jika param adalah kosong maka cetak kosong dan kembali
   if (param == "") {
@@ -9,7 +11,7 @@ function printVowels(param) {
   //ini adalah daftar vokal
   var vokal = "aiueo";
 
-   //check param apakah termasuk vokal
+  //check param apakah termasuk vokal
   var isVokal = vokal.includes(param);
 
   //ini adalah daftar konsonan
