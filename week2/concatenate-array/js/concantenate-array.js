@@ -5,17 +5,17 @@ function ConcatArray() {
   // ambil array pada input1 dan masukkan ke variabel temp1
   var temp1 = document.getElementById("input1").value;
   //   menghapus siku kiri
-  temp1 = temp1.replaceAll("[", "");
+  temp1 = temp1.replace("[", "");
   //   menghapus siku kanan
-  temp1 = temp1.replaceAll("]", "");
+  temp1 = temp1.replace("]", "");
 
   //   ambil nilai inputan 2 dan masukkan ke variabel temp2
   var temp2 = document.getElementById("input2").value;
 
   // menghapus siku kiri
-  temp2 = temp2.replaceAll("[", "");
+  temp2 = temp2.replace("[", "");
   //   menghapus siku kanan
-  temp2 = temp2.replaceAll("]", "");
+  temp2 = temp2.replace("]", "");
 
   // mengubah string temp1 menjadi array dan masukkab ke variabel input1 dengan function split
   var input1 = temp1.split(",");
