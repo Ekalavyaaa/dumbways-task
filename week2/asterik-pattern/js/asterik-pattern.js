@@ -1,7 +1,7 @@
 // asterik pettern
 function menampilkanAsterik() {
   // bersihkan output
-  document.getElementById("Hasil").innerHTML = "";
+  
 
   // ambil value yang di inputan dengan id jumlah tampilan dan masukkan ke variabel jumlah
   var jumlah = document.getElementById("jumlahtampilan").value;
